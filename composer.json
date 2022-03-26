@@ -1,7 +1,5 @@
-									
-									
 	{								
-		name: "tailieuweb/mypackage",								
+		name: "iznhaphuong/mypackage",								
 		description: "mypackage",							
 		keywords: [								
 		mypackage								
@@ -22,7 +20,7 @@
 		database								
 		],								
 		psr-4: {								
-		Tailieuweb\\Mypackage\\: "src/"								
+		Mypackage\\: "src/"								
 		}								
 		},								
 		autoload-dev: {								
