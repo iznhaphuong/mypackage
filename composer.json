@@ -1,42 +1,32 @@
 	{								
-		name: "iznhaphuong/mypackage",								
-		description: "mypackage",							
-		keywords: [								
-		mypackage								
+		"name": "iznhaphuong/mypackage",								
+		"description": "mypackage",							
+		"keywords": [								
+		"mypackage"
 		],								
-		authors: [								
-		{								
-		name: "foostart",								
-		email: "foostart.com@gmail.com"								
-		}								
+		"authors": [
+			{								
+		"name": "foostart",								
+		"email": "foostart.com@gmail.com"
+			}
 		],								
-		license: "MIT",								
-		require: {								
+		"license": "MIT",								
+		"require": {},								
+		"require-dev": {},								
+		"autoload": {								
+		"classmap": [								
+		"database"
+			],								
+		"psr-4": {								
+		"Mypackage\\": "src/"
+			}
+		},	 							
+		"autoload-dev": {								
+		"classmap": []
 		},								
-		require-dev: {								
-		},								
-		autoload: {								
-		classmap: [								
-		database								
-		],								
-		psr-4: {								
-		Mypackage\\: "src/"								
-		}								
-		},								
-		autoload-dev: {								
-		classmap: [								
-										
-		]								
-		},								
-		scripts: {								
-		},								
-		minimum-stability: "dev",								
-		config: {								
-		preferred-install: "dist"								
-		}								
-		}								
-										
-										
-										
-										
-										
+		"scripts": {},								
+		"minimum-stability": "dev",								
+		"config": {								
+		"preferred-install": "dist"
+		}
+	}
